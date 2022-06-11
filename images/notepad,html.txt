@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car Rental Website Design</title>
+    <!-- Link to CSS -->>
+    <link rel="stylesheet" href="notepad.css">
+    <!-- Box Icons -->
+    <link rel="stylesheet" 
+    href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <a href="#" class="logo"> <img src="img2.png" alt=""></a>
+        <div class="bx bx-menu" id="menu-icon"></div>
+<u1 class="navbar">
+<li><a href="#home">Home</a></li>
+<li><a href="#ride">Ride</a></li>
+<li><a href="#services">Services</a></li>
+<li><a href="#reviews">Reviews</a></li>
+<li><a href="#popular locations">Popular Locations</a></li>
+</u1>
+<div class="header-btn">
+    <a href="#" class="sign-up">Sign-Up</a>
+    <a href="#" class="sign-in">Sign-In</a>
+</div>
+    </header>
+
+
+
+
+
+
+<!-- Home -->
+<section class="home" id="home">
+    <div class="text">
+        <h1><span>Looking</span> to <br>rent a car</h1>
+        <p><b>We prefer you the best car for your trip.</b></p>
+        <div class="app-stores">
+            <img src="gp.png" alt="">
+            <img src="app.png" alt="">
+        </div>
+    </div>
+    <div class="form-container">
+        <form action="">
+    <div class="input-box">
+        <span>Location</span>
+        <input type="search" name="" id="" placeholder="Search Places">
+    </div>
+    <div class="input-box">
+        <span>Pick-Up Date</span>
+        <input type="date" name="" id="">
+    </div>
+    <div class="input-box">
+        <span>Return Date</span>
+        <input type="date" name="" id="">
+    </div>
+      
+    
+    <div class="radio">
+        <span>Purpose of Rental : </span>
+        <input type="radio" id="html" value="Travel">
+        <label for="html">Travel</label>
+        <input type="radio" id="html" value="Business">
+        <label for="html">Business</label>
+
+    </div>
+    <div class="time">
+        <label for="appt">Select a time:</label>
+        <input type="time" id="appt" name="appt">
+    </div>
+    
+<input type="submit" name="" id="" class="btn">
+        </form>
+    </div>
+</section>
+<!-- Ride -->
+<section class="ride" id="ride">
+    <div class="heading">
+        <span>How Its Works</span>
+        <h1>Rent with 3 Easy Steps</h1>
+    </div>
+    <div class="ride-container">
+        <div class="box">
+            <i class='bx bx-map' ></i>
+            <h2>Choose A Location</h2>
+          <p> Choose your favourite location to travel. Choose your favourite location to travel. </p>  
+  </div>
+  <div class="ride-container">
+    <div class="box">
+        <i class='bx bxs-calendar'></i>
+        <h2>Pick-Up Date</h2>
+       <p> Select the your date for the trip. Select the your date for the trip.</p> 
+</div>
+<div class="ride-container">
+    <div class="box">
+        <i class='bx bx-calendar-x'></i>
+        <h2>Book A Car</h2>
+        <p>Choose a car you would like travel. Choose a car you would like travel.</p>
+</div>
+    </div>
+</section>
+
+    <!-- Link to JS -->
+    <script src="main.js"></script>
+
+    
+
+</body>
+</html>
+
+
+
